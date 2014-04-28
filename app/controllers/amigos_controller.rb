@@ -1,0 +1,2 @@
+class AmigosController < ApplicationController
+end
