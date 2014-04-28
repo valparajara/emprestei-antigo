@@ -1,0 +1,2 @@
+class PainelController < ApplicationController
+end
