@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1'
-gem "mysql2", "~> 0.3.13"
+gem "mysql2", '~> 0.3.13'
+gem 'devise', '3.2.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
