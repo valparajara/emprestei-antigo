@@ -1,7 +1,7 @@
-<form role="form">
+<%= simple_form_for @amigo, { :role => 'form' } do |f| %>
   <div class="form-group">
     <label for="nome">Nome</label>
-    <input type="nome" class="form-control" id="nome" placeholder="Digite o nome">
+    <%= f.input :nome, :required => false, placeholder: true, :class => "form-control", :id => "nome"  %>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
@@ -11,5 +11,4 @@
     <label for="telefone">Telefone</label>
     <input type="telefone" class="form-control" id="telefone" placeholder="Digite o telefone">
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+<% end %>
